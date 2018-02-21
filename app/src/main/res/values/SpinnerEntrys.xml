@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="SpinnerEntry">
+            <item>Wodka</item>
+            <item>Whiskey</item>
+            <item>Bacardi Razz</item>
+            <item>Rum</item>
+            <item>Gin</item>
+            <item>Korn</item>
+            <item>Martini</item>
+            <item>Cola</item>
+            <item>Fanta</item>
+            <item>Sprite</item>
+            <item>Orange Juice</item>
+            <item>Vermouth</item>
+    </string-array>
+
+</resources>

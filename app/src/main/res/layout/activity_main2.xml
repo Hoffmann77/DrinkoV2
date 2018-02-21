@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.bobby.drinkov2.Main2Activity"
+    android:orientation="vertical"
+    android:weightSum="10">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2.2"
+        android:background="#f0f0f0">
+
+        <TextView
+            android:id="@+id/textGrid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="3mm"
+            android:layout_marginTop="2mm"
+            android:text="Barbot"
+            android:textColor="@android:color/black"
+            android:textSize="27sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="0dp"
+            android:layout_marginEnd="0dp"
+            android:layout_marginTop="50dp"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <Button
+                android:id="@+id/Button_Cocktails"
+                style="@android:style/Widget.Material.Light.Button.Borderless"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Cocktails" />
+
+            <Button
+                android:id="@+id/Button_Barbot"
+                style="@android:style/Widget.Material.Button.Borderless"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Barbot" />
+        </LinearLayout>
+    </RelativeLayout>
+    
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="7.8">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:weightSum="2"
+            android:orientation="horizontal">
+
+        
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.8"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/Optic1_Text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="35dp"
+                    android:textColor="@android:color/black"
+                    android:text="Optic 1:"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="20dp"
+                    android:textSize="25sp"/>
+
+                <TextView
+                    android:id="@+id/Optic2_Text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="35dp"
+                    android:textColor="@android:color/black"
+                    android:text="Optic 2:"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="20dp"
+                    android:textSize="25sp"/>
+
+                <TextView
+                    android:id="@+id/Optic3_Text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="35dp"
+                    android:textColor="@android:color/black"
+                    android:text="Optic 3:"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="20dp"
+                    android:textSize="25sp"/>
+
+
+                <TextView
+                    android:id="@+id/Optic4_Text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="35dp"
+                    android:textColor="@android:color/black"
+                    android:text="Optic 4:"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="20dp"
+                    android:textSize="25sp"/>
+
+                <TextView
+                    android:id="@+id/Optic5_Text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="35dp"
+                    android:textColor="@android:color/black"
+                    android:text="Optic 5:"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="20dp"
+                    android:textSize="25sp"/>
+
+                <TextView
+                    android:id="@+id/Optic6_Text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="35dp"
+                    android:textColor="@android:color/black"
+                    android:text="Optic 6:"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="20dp"
+                    android:textSize="25sp"/>
+
+                <TextView
+                    android:id="@+id/Optic7_Text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="35dp"
+                    android:textColor="@android:color/black"
+                    android:text="Optic 7:"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="20dp"
+                    android:textSize="25sp"/>
+
+                <TextView
+                    android:id="@+id/Optic8_Text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="35dp"
+                    android:textColor="@android:color/black"
+                    android:text="Optic 8:"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="20dp"
+                    android:textSize="25sp"/>
+
+
+            </LinearLayout>
+        
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1.2"
+                android:orientation="vertical">
+
+                <Spinner
+                    android:id="@+id/Optic1_Value"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_width="170dp"
+                    android:layout_height="35dp"></Spinner>
+
+                <Spinner
+                    android:id="@+id/Optic2_Value"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_width="170dp"
+                    android:layout_height="35dp"></Spinner>
+
+                <Spinner
+                    android:id="@+id/Optic3_Value"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_width="170dp"
+                    android:layout_height="35dp"></Spinner>
+
+                <Spinner
+                    android:id="@+id/Optic4_Value"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_width="170dp"
+                    android:layout_height="35dp"></Spinner>
+
+                <Spinner
+                    android:id="@+id/Optic5_Value"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_width="170dp"
+                    android:layout_height="35dp"></Spinner>
+
+                <Spinner
+                    android:id="@+id/Optic6_Value"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_width="170dp"
+                    android:layout_height="35dp"></Spinner>
+
+                <Spinner
+                    android:id="@+id/Optic7_Value"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_width="170dp"
+                    android:layout_height="35dp"></Spinner>
+
+                <Spinner
+                    android:id="@+id/Optic8_Value"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_width="170dp"
+                    android:layout_height="35dp"></Spinner>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </RelativeLayout>
+
+
+</LinearLayout>
